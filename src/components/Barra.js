@@ -9,17 +9,16 @@ function SearchBar() {
         src={GoogleLogo}
         alt="logo de google"
       />
-      <input 
-        type="text"
-        placeholder="Buscar en Google o escribir una URL" 
-      /> 
-      <div className="languages">
-        <p>
-          Ofrecido por Google en:
-          <a href="#quechua">Español (Latinoamérica)</a>
-          <a href="#espanol">Quechua</a>
-        </p>
+
+      <div className="input-container">
+        <i className="fa-solid fa-magnifying-glass"></i>
+        <input 
+          type="text"
+          placeholder="Buscar en Google o escribir una URL" 
+        />
+        <i className="fa-solid fa-microphone"></i>
       </div>
+
     </div>
   );
 }
