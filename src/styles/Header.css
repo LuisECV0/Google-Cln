@@ -1,21 +1,21 @@
 .header {
     display: flex;
     justify-content: flex-end;
-    padding: 20px;
-    background-color: white;
-    border-bottom: 1px solid #e4e4e4;
+    padding: 20px;  
   }
   
   .header-nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 0px 4px 0px 32px;
   }
   
   .header-link {
-    color: #5f6368;
     text-decoration: none;
-    font-size: 14px;
+    color: #000000DE;
+    font-size: 13px;
+
   }
   
   .header-link:hover {
@@ -30,11 +30,20 @@
   
   .header-icon {
     font-size: 24px;
-    color: #5f6368;
     cursor: pointer;
   }
   
   .header-icon:hover {
-    color: #202124;
+    color: #0c32a1;
+  }
+
+  .Btn-login {
+    background-color: #1A73E8;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0 8px;
+    padding: 9px 23px;
+    border-radius: 5px;
+    border: 0;
   }
   

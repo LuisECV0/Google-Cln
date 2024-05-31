@@ -10,7 +10,7 @@ const Header = () => {
         <div className="header-icons">
           <i className="fa fa-th header-icon"></i>
         </div>
-        <a className='Btn-login'>Iniciar sesión</a>
+        <button className='Btn-login'>Iniciar sesión</button>
       </nav>
     </header>
   );

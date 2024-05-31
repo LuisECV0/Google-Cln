@@ -9,12 +9,10 @@ function SearchBar() {
         src={GoogleLogo}
         alt="logo de google"
       />
-
       <input 
         type="text"
         placeholder="Buscar en Google o escribir una URL" 
       /> 
-
       <div className="languages">
         <p>
           Ofrecido por Google en:

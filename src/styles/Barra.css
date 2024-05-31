@@ -3,22 +3,22 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color: #f2f2f2; /* Color de fondo similar al de Google */
-    border: 1px solid #dfe1e5; /* Borde similar al de Google */
-    border-radius: 24px; /* Bordes redondeados */
+    background-color: #f2f2f2;
+    border: 1px solid #dfe1e5; 
+    border-radius: 24px; 
   }
   
   .search-bar img {
-    width: 100px; /* Ajusta el tamaño según sea necesario */
+    width: 100px;
     margin-right: 10px;
   }
   
   .search-bar input {
-    flex-grow: 1; /* El input ocupa todo el espacio restante */
+    flex-grow: 1; 
     padding: 10px;
     font-size: 16px;
-    border: none; /* Sin borde */
-    outline: none; /* Sin contorno al hacer foco */
+    border: none; 
+    outline: none;
   }
   
   .languages {
@@ -33,7 +33,7 @@
   .languages a {
     margin-right: 10px;
     text-decoration: none;
-    color: #1a0dab; /* Color de enlace similar al de Google */
+    color: #1a0dab;
   }
   
   .languages a:hover {
