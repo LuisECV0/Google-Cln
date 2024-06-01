@@ -1,25 +1,25 @@
-/* src/App.css */
-.app {
-    text-align: center;
-  }
-  
-  .app-header {
-    margin-top: 50px;
-  }
-  
-  /* src/components/SearchBar.css */
-  .search-bar {
-    margin-top: 20px;
-  }
-  
-  .search-bar input {
-    width: 400px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  .search-bar button {
-    padding: 10px;
-    font-size: 16px;
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+.header {
+  height: 3vh;
+}
+
+.body {
+  height: 75vh;
+}
+
+.footer {
+  height: 11vh;
+}

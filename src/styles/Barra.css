@@ -19,6 +19,7 @@
     background-color: #fff;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+    margin: 26px 0px;
     padding: 5px 15px;
   }
   
@@ -29,11 +30,12 @@
   
   .input-container input {
     flex-grow: 1; 
-    padding: 10px;
+    padding: 8px;
     font-size: 16px;
     outline: none;
     border-radius: 10px;
     border: none;
+    color: rgba(0,0,0,.87);
   }
 
   
